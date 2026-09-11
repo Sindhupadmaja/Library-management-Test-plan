@@ -1,0 +1,8 @@
+Type,ID,Username/Title,Password/Author,Status
+User,U001,student,library123,Active
+User,U002,librarian,admin123,Active
+Book,B001,The Hobbit,J.R.R. Tolkien,Available
+Book,B002,1984,George Orwell,Borrowed
+Book,B003,To Kill a Mockingbird,Harper Lee,Available
+Book,B004,The Great Gatsby,F. Scott Fitzgerald,Available
+Book,B005,ZZZ Test Book,Test Author,Available

@@ -1,0 +1,12 @@
+{
+  "project": "Library Management Test Plan",
+  "timeline": "July 2023",
+  "level": "Beginner",
+  "focus": [
+    "Manual Testing",
+    "Requirements-Based Testing",
+    "SDLC",
+    "Defect Reporting"
+  ],
+  "prototype": "HTML/CSS/JavaScript"
+}

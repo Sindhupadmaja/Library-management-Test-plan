@@ -1,0 +1,13 @@
+Test Case ID,Requirement,Title,Precondition,Test Steps,Test Data,Expected Result,Priority,Result
+TC-001,FR-01,Valid login,User is on login screen,"Enter username; Enter password; Click Login","student / library123","Dashboard is displayed",High,PASS
+TC-002,FR-01,Invalid login,User is on login screen,"Enter valid username; Enter wrong password; Click Login","student / wrongpass","Error message is displayed and user remains logged out",High,PASS
+TC-003,FR-05,Empty username,User is on login screen,"Leave username blank; Enter password; Click Login","blank / library123","Validation message requests username",High,PASS
+TC-004,FR-05,Empty password,User is on login screen,"Enter username; Leave password blank; Click Login","student / blank","Validation message requests password",High,PASS
+TC-005,FR-02,Search matching book,User is logged in,"Enter a known title; Click Search","The Hobbit","Matching book is displayed",Medium,PASS
+TC-006,FR-02,Search with no match,User is logged in,"Enter an unknown title; Click Search","ZZZ Unknown Book","Clear no-results message is displayed",Medium,FAIL
+TC-007,FR-02,Empty search,User is logged in,"Leave search blank; Click Search","blank","Application remains stable and displays available books or validation",Medium,PASS
+TC-008,FR-03,Borrow available book,User is logged in and book is available,"Select available book; Click Borrow","The Hobbit","Book becomes borrowed and confirmation is displayed",High,PASS
+TC-009,FR-03,Borrow unavailable book,User is logged in and book is unavailable,"Select unavailable book; Click Borrow","1984","Borrow action is rejected",High,FAIL
+TC-010,FR-03,Borrow confirmation,User has borrowed a book,"Complete borrow operation","The Hobbit","Confirmation is displayed and state is updated",Medium,PASS
+TC-011,FR-04,Return borrowed book,User has borrowed a book,"Click Return","The Hobbit","Book becomes available again and confirmation is displayed",High,PASS
+TC-012,FR-04,Return unavailable book,User has no borrowed copy,"Attempt return","1984","Return action is rejected",Medium,BLOCKED

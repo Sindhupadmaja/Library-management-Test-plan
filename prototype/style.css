@@ -1,0 +1,53 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #f3f4f6;
+  color: #222;
+}
+.container {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 20px;
+}
+.card {
+  background: white;
+  padding: 28px;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0,0,0,.08);
+}
+.hidden { display: none; }
+h1 { margin-top: 0; }
+label { display: block; margin-top: 14px; font-weight: bold; }
+input {
+  width: 100%;
+  padding: 11px;
+  margin-top: 6px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+}
+button {
+  border: 0;
+  border-radius: 6px;
+  padding: 11px 16px;
+  margin-top: 14px;
+  cursor: pointer;
+  background: #222;
+  color: white;
+}
+.secondary { background: #666; }
+.message { min-height: 22px; font-weight: bold; }
+.header, .search {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.search input { flex: 1; }
+.book {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  padding: 16px;
+  margin-top: 12px;
+}
+.book h3 { margin: 0 0 6px; }
+.status { font-weight: bold; }

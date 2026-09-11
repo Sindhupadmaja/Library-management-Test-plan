@@ -1,0 +1,4 @@
+Defect ID,Summary,Requirement,Severity,Priority,Steps to Reproduce,Expected Result,Actual Result,Status
+DEF-001,No-results search message is unclear,FR-02,Minor,Medium,"Login; Search for ZZZ Unknown Book","A clear no-results message should be shown","Message is technically displayed but does not clearly explain that no books matched","Open"
+DEF-002,Unavailable book can reach borrow action,FR-03,Major,High,"Login; select an unavailable book; attempt Borrow","Unavailable book must be rejected before state changes","Borrow action can be triggered in an edge case","Open"
+DEF-003,Return scenario unavailable in isolated state,FR-04,Medium,Medium,"Start fresh session without a borrowed book; attempt Return","System should provide a controlled response","Test could not be completed because required borrowed state was unavailable","Blocked"
