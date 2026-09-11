@@ -112,6 +112,4 @@ The defect log includes deliberately documented defects discovered during testin
 
 It demonstrates requirements-based test cases for login, search, borrowing, and returns, plus manual execution, defect documentation, validation, and error-handling coverage.
 
-## 9. Suggested GitHub Description
-
-**Requirements-based manual QA project for a Library Management System, including test planning, test cases, traceability, defect tracking, execution reporting, test data, and a lightweight HTML/JavaScript prototype.**
+ test cases, traceability, defect tracking, execution reporting, test data, and a lightweight HTML/JavaScript prototype.**
