@@ -110,12 +110,6 @@ The defect log includes deliberately documented defects discovered during testin
 | Test Data | Provides repeatable test inputs |
 | Prototype | Provides a small system to test |
 
-## 8. Resume Alignment
-
-This project is designed to support the resume project entry:
-
-> **Library Management Test Plan – LPU, India — Jul 2023**
-
 It demonstrates requirements-based test cases for login, search, borrowing, and returns, plus manual execution, defect documentation, validation, and error-handling coverage.
 
 ## 9. Suggested GitHub Description
